@@ -32,9 +32,9 @@ def scan(ip):
 def print_result(result_list):
     print("IP\t\t\t\tMAC_ADDRESS\n-------------------------------------------------------------------")
     for clint in result_list:
-        print(clint["ip"]+"\t\t\t"+clint["mac"])
+        print(clint["ip"] + "\t\t\t" + clint["mac"])
+
 
 ip_address = input("enter a rang\n")
 scan_result = scan(ip_address)
 print_result(scan_result)
-
